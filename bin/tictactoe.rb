@@ -6,10 +6,10 @@ puts "Would you like to play with 0, 1 or 2 players?"
 num_players = gets
 
 case num_players
-when 0
+when "0"
   player_1_type = Players::Computer
   player_2_type = Players::Computer
-when 1
+when "1"
   player_2_type = Players::Computer
 else
   player_1_type = Players::Human
